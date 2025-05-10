@@ -3,65 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receta de Ñoquis de Papa</title>
+    <title>Ñoquis de Papa - Receta</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <section class="suscripcion">
-            <h2>Suscribite para recibir más recetas</h2>
+    <main class="container">
+        <section class="suscripcion" aria-labelledby="suscripcion-heading">
+            <h2 id="suscripcion-heading">Suscribite para recibir más recetas</h2>
             <form action="#" method="post">
-                <input type="email" name="email" placeholder="TuCorreo@Ejemplo.com" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="TuCorreo@Ejemplo.com" required>
                 <button type="submit">Suscribirme</button>
             </form>
         </section>
 
-        <h1>Receta de Ñoquis de Papa</h1>    
-        <p>
-            Es la pasta de los días 29: bien económica, popular e irresistible para compartir con familia y amigos. 
-            Suaves y esponjosos, los clásicos ñoquis de papa son un plato infaltable en la mesa nacional. 
-            Una receta para lograr la textura perfecta y disfrutar con cualquier salsa y mucho queso rallado.
-        </p>
+        <article>
+            <header>
+                <h1>Receta de Ñoquis de Papa</h1>
+            </header>
 
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJF88ly7uunebmRoRzWL7DP54RnHI40V46JA&amp;s" alt="Ñoquis">
+            <p>
+                Es la pasta de los días 29: bien económica, popular e irresistible para compartir con familia y amigos. 
+                Suaves y esponjosos, los clásicos ñoquis de papa son un plato infaltable en la mesa nacional. 
+                Una receta para lograr la textura perfecta y disfrutar con cualquier salsa y mucho queso rallado.
+            </p>
 
-        <h1>Preparación</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJF88ly7uunebmRoRzWL7DP54RnHI40V46JA&amp;s" alt="Plato de ñoquis de papa">
 
-        <h2>Paso 1</h2>
-        <p>
-            Llenar una cacerola con agua fría y agregar las papas y la mitad de la sal gruesa. 
-            Hervir 20 minutos, o hasta que las papas estén tiernas. 
-            Escurrirlas y dejarlas enfriar un poquito (no del todo).
-        </p>
+            <section>
+                <h1>Preparación</h1>
 
-        <h2>Paso 2</h2>
-        <p>Hacer un puré.</p>
+                <section>
+                    <h2>Paso 1</h2>
+                    <p>
+                        Llenar una cacerola con agua fría y agregar las papas y la mitad de la sal gruesa. 
+                        Hervir 20 minutos, o hasta que las papas estén tiernas. 
+                        Escurrirlas y dejarlas enfriar un poquito (no del todo).
+                    </p>
+                </section>
 
-        <h2>Paso 3</h2>
-        <p>
-            En un bowl, formar una corona con el puré. 
-            Agregar en el centro los huevos, sal, pimienta, nuez moscada y el polvo leudante. 
-            Incorporar la harina de a poco y unir con las manos, ayudándose con una espátula, 
-            de afuera hacia adentro, hasta formar una masa homogénea.
-        </p>
+                <section>
+                    <h2>Paso 2</h2>
+                    <p>Hacer un puré.</p>
+                </section>
 
-        <h2>Paso 4</h2>
-        <p>
-            Hacer rollitos con la masa de un centímetro y medio de grosor. 
-            Cortarlos en trocitos de 2 centímetros y darles la forma clásica con el marcador de ñoquis o con un tenedor.
-        </p>
+                <section>
+                    <h2>Paso 3</h2>
+                    <p>
+                        En un bowl, formar una corona con el puré. 
+                        Agregar en el centro los huevos, sal, pimienta, nuez moscada y el polvo leudante. 
+                        Incorporar la harina de a poco y unir con las manos, ayudándose con una espátula, 
+                        de afuera hacia adentro, hasta formar una masa homogénea.
+                    </p>
+                </section>
 
-        <h2>Paso 5</h2>
-        <p>
-            Cocinar los ñoquis en agua hirviendo con un chorrito de aceite y la sal gruesa restante. 
-            Estarán listos cuando suban a la superficie. Retirarlos con una espumadera. 
-            Servir solos o con la salsa que se desee.
-        </p>
+                <section>
+                    <h2>Paso 4</h2>
+                    <p>
+                        Hacer rollitos con la masa de un centímetro y medio de grosor. 
+                        Cortarlos en trocitos de 2 centímetros y darles la forma clásica con el marcador de ñoquis o con un tenedor.
+                    </p>
+                </section>
 
-        <div class="tips">
-            <strong>Tips:</strong><br>
-            Para una versión con menos calorías, reemplazar parte de la harina con harina integral y utilizar solo la clara del huevo.<br>
-            También se puede sustituir el huevo y la yema por puré de batata o calabaza, que aportan un sabor dulce y agradable.
-        </div>
-    </div>
+                <section>
+                    <h2>Paso 5</h2>
+                    <p>
+                        Cocinar los ñoquis en agua hirviendo con un chorrito de aceite y la sal gruesa restante. 
+                        Estarán listos cuando suban a la superficie. Retirarlos con una espumadera. 
+                        Servir solos o con la salsa que se desee.
+                    </p>
+                </section>
+            </section>
+
+            <aside class="tips">
+                <strong>Tips:</strong><br>
+                Para una versión con menos calorías, reemplazar parte de la harina con harina integral y utilizar solo la clara del huevo.<br>
+                También se puede sustituir el huevo y la yema por puré de batata o calabaza, que aportan un sabor dulce y agradable.
+            </aside>
+        </article>
+    </main>
 </body>
 </html>

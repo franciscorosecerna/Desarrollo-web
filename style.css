@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+h1, h2 {
+    color: #b23b3b;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+
+.suscripcion {
+    background-color: #ffe5d9;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.suscripcion h2 {
+    margin-top: 0;
+}
+
+.suscripcion form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.suscripcion input[type="email"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.suscripcion button {
+    background-color: #b23b3b;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.suscripcion button:hover {
+    background-color: #8f2e2e;
+}
+
+.tips {
+    background-color: #f9f3e9;
+    padding: 1rem;
+    border-left: 4px solid #c58c47;
+    margin-top: 2rem;
+    border-radius: 4px;
+}
+
+.tips strong {
+    color: #c58c47;
+}
