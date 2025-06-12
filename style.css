@@ -87,8 +87,12 @@ footer {
     background-color: #8f2e2e;
 }
 
-h1, h2 {
-    color: #b23b3b;
+h1 {
+    color: #797979;
+}
+
+h2 {
+    color: #c73434;
 }
 
 img {
