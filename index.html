@@ -6,14 +6,92 @@
     <title>Ñoquis de Papa - Receta</title>
     <link rel="stylesheet" href="style.css">
 
-    <script type="module" src="exercises/arrays.js"></script>
+<!-- <script type="module" src="exercises/arrays.js"></script>
     <script type="module" src="exercises/for.js"></script>
     <script type="module" src="exercises/funciones.js"></script>
     <script type="module" src="exercises/if_else.js"></script>
     <script type="module" src="exercises/strings.js"></script>
     <script type="module" src="exercises/variables_and_operators.js"></script>
+-->
+<script src="form.js"></script>
 </head>
 <body>
+    <h2 id="form-title">HOLA</h2>
+    <form id="formulario">
+        <div class="row">
+        <div class="field">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre">
+            <span class="error" id="error-nombre"></span>
+        </div>
+
+        <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <span class="error" id="error-email"></span>
+        </div>
+
+        <div class="field">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password">
+            <span class="error" id="error-password"></span>
+        </div>
+
+        <div class="field">
+            <label for="repetir">Repetir contraseña</label>
+            <input type="password" id="repetir" name="repetir">
+            <span class="error" id="error-repetir"></span>
+        </div>
+
+        <div class="field">
+            <label for="edad">Edad</label>
+            <input type="number" id="edad" name="edad">
+            <span class="error" id="error-edad"></span>
+        </div>
+
+        <div class="field">
+            <label for="telefono">Teléfono</label>
+            <input type="text" id="telefono" name="telefono">
+            <span class="error" id="error-telefono"></span>
+        </div>
+
+        <div class="field">
+            <label for="direccion">Dirección</label>
+            <input type="text" id="direccion" name="direccion">
+            <span class="error" id="error-direccion"></span>
+        </div>
+
+        <div class="field">
+            <label for="ciudad">Ciudad</label>
+            <input type="text" id="ciudad" name="ciudad">
+            <span class="error" id="error-ciudad"></span>
+        </div>
+
+        <div class="field">
+            <label for="codigo">Código Postal</label>
+            <input type="text" id="codigo" name="codigo">
+            <span class="error" id="error-codigo"></span>
+        </div>
+
+        <div class="field">
+            <label for="dni">DNI</label>
+            <input type="text" id="dni" name="dni">
+            <span class="error" id="error-dni"></span>
+        </div>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <section class="suscripcion" aria-labelledby="suscripcion-heading">
+        <h2 id="suscripcion-heading">Suscribite para recibir más recetas</h2>
+        <form action="#" method="post">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="TuCorreo@Ejemplo.com" required>
+            <button type="submit">Suscribirme</button>
+        </form>
+    </section>
+    
     <header>
         <h1>Algo Relacionado a ñoquis</h1>
     </header>
@@ -27,16 +105,6 @@
     </nav>
 
     <main class="container">
-        
-        <section class="suscripcion" aria-labelledby="suscripcion-heading">
-            <h2 id="suscripcion-heading">Suscribite para recibir más recetas</h2>
-            <form action="#" method="post">
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" placeholder="TuCorreo@Ejemplo.com" required>
-                <button type="submit">Suscribirme</button>
-            </form>
-        </section>
-
         <article>
             <header>
                 <h1>Receta de Ñoquis de Papa</h1>
